@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* * {
+    box-sizing: border-box;
+} */
+/* Seletor Coringa */ 
+/* ajuste para laterais Responsividade*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+   /* padding: 15px; */ /* ajuste para laterais Responsividade*/
+    /* margin: 10px; todos os lados */
+    /* margin: 10px 20px; top/bottom, left/right */
+    /* margin: 10px 20px 5px; top, left/right, bottom */
+    /* auto só funciona para laterais no margin */
+}
+
+header {
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+
+background-color: #00796B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .logo {
+        Width: 199px;
+        Height: 83px;
+        Margin-Left: 41px;
+    }
+
+
+    .navegation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        width: 25%;
+        list-style: none;
+        margin: 10px;
+        color: #fff;
+        gap: 33px;
+    }
+
+    .nav .menu {
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    section.mid .container {
+        display: flex;
+        justify-content: space-around;
+        width: 1280px;
+        max-width: 100%;
+     }
+
+    .mid .img-mid {
+        width: 770px;
+        height: 443px;
+        margin-top: 94px;
+        margin-left: -21px;
+        margin-bottom: 106px;
+    }
+
+    .mid .text-mid h4 {
+        font-size: 40px;
+        color: #009688;
+        font-weight: 700;
+        line-height: 46.88px;
+        width: 516px;
+        height: 120px;
+        margin-top: 157px;
+        margin-bottom: -350px;
+    }
+
+    .mid .text-mid article {
+        width: 501px;
+        height: 160px;
+        margin-top: 360px;
+        font-size: 20px;
+        line-height: 23.44px;
+    }
+
+/*fim do index.html*/
+
+.text-sobre1 .sobre1 h1 {
+    color: #00796B;
+    font-size: 60px;
+    line-height: 70.31px;
+    width: 191px;
+    height: 70px;
+    margin-top: 148px;
+    margin-left: 101px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.text-sobre2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .text-sobre2 .sobre2 {
+        width: 602px;
+        height: 400px;
+        font-size: 24px;
+        line-height: 28.13px;
+        margin-top: 68px;
+        margin-left: 101px;
+    }
+
+    .text-sobre2 .sobre2 h2 {
+        font-size: 35px;
+        color: #00796B;
+        line-height: 41.02px;
+        font-weight: 700;
+    }
+
+    .text-sobre2 .sobre2 ol li {
+        font-weight: 400;
+    }
+
+    .text-sobre2 .img-sobre {
+        width: 575px;
+        height: 410px;
+        margin-top: 60px;
+    }
+
+.video-sobre {
+    text-align: center; 
+    padding: 130px 200px 200px 160px;
+}
+
+    .text2-sobre .text2-sobre1 {
+        font-size: 24px;
+        width: 1085px;
+        height: 137px;
+        margin-top: 0;
+        margin-left: 129px;
+        margin-right: 66px;
+        margin-bottom: 56px;
+        text-align: center;
+        line-height: 28.13px;
+    }
+
+    .text2-sobre .text2-sobre2 {
+        font-size: 24px;
+        width: 1085px;
+        height: 184px;
+        margin-top: 0;
+        margin-left: 117px;
+        margin-right: 78px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 28.13px;
+    }
+
+    .text2-sobre .text2-sobre3 {
+        font-size: 24px;
+        width: 1085px;
+        height: 218px;
+        margin-top: 0;
+        margin-left: 129px;
+        margin-right: 78px;
+        margin-bottom: 126px;
+        text-align: center;
+        line-height: 28.13px;
+    }
+
+    .text2-sobre h5 {
+        color: #00796B;
+        font-size: 35px;
+        line-height: 41.02px;
+        margin: 0;
+        padding: 0;
+    }
+
+/*fim da sobre.html*/
+
+.serviços h1 {
+    width: 286px;
+    height: 70px;
+    margin-top: 152px;
+    margin-left: 41px;
+    margin-right: 953px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    line-height: 70.31px;
+    font-weight: 900;
+    color: #00796B;
+}
+
+.serviço1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+    .serviço1 .img-serviços img{
+        width: 530px;
+        height: 356.98px;
+        margin-top: 93px;
+        margin-left: 41px;
+    }
+
+    .serviço-text1 {
+        width: 562px;
+        height: 216px;
+        margin-top: 129px;
+        margin-right: 83px;
+        margin-left: 64px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+    }
+
+    .serviço-text1 h4 {
+        font-size: 35px;
+        line-height: 41.02px;
+        color: #00796B;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+    }
+            
+.serviço2 {
+    display: inline-flex;
+}    
+
+    .serviço2 .img-serviços img{
+        width: 530px;
+        height: 383.49px;
+        margin-right: 41px;
+        margin-top: 101.02px;
+        margin-left: 38px;
+    }
+
+    .serviço-text2 {
+        width: 562px;
+        height: 216px;
+        margin-top: 149.02px;
+        margin-left: 109px;
+        margin-right: 38px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+    }
+
+    .serviço-text2 h4 {
+        font-size: 35px;
+        line-height: 41.02px;
+        color: #00796B;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+    }
+
+    .serviço3 {
+        display: inline-flex;
+    }
+    
+        .serviço3 .img-serviço3 img{
+            width: 530px;
+            height: 285.88px;
+            margin-top: 147.51px;
+            margin-left: 141px;
+            margin-bottom: 189.12px;
+        }
+    
+        .serviço-text3 {
+            width: 562px;
+            height: 216px;
+            margin-top: 174.51px;
+            margin-right: 47px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.13px;
+        }
+    
+        .serviço-text3 h4 {
+            font-size: 35px;
+            line-height: 41.02px;
+            color: #00796B;
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+        }
+            
+/*fim do servicos.html*/
+    
+.mid-contato h1 {
+    width: 182px;
+    height: 47px;
+    font-size: 40px;
+    margin-top: 145px;
+    margin-left: 61px;
+    margin-right: 1037px;
+    color: #00796B;
+    font-weight: 900;
+    line-height: 46.88px;
+}
+
+
+.formulario form {
+    width: 528px;
+    max-width: 100%;
+    margin-left: 61px;
+}
+
+.formulario form label {
+    margin: 19px 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.formulario form input,
+.formulario form textarea {
+    border: 1px solid #9B9B9B;
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0 15px 0;
+    resize: none;
+}
+
+.formulario form button {
+    background-color: #009688;
+    width: 175px;
+    height: 33px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 115px;
+}
+
+.form-contato {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato-final {
+    width: 257px;
+    height: 65px;
+    margin: -19px 338px 31px 86px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+}
+
+.form-contato span a{
+    color: #00796B;
+    width: 700;
+    text-decoration: none;
+}
+
+/*fim do contato*/
+
+footer {
+    background-color: #c4c4c4;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container p{
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+}
